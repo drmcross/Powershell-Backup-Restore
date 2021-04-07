@@ -3,15 +3,15 @@ Powershell utility that backs up common user files from C: to a users Network Dr
  
 What the backup grabs:
 
-Edge/Firefox/Chrome user data and configuration files (Prompts for preferred browser)
-Outlook Signatures
-Desktop data from user on C:
-Documents data from user on C:
-Outlook Archive Files (pst and ost)
+- Edge/Firefox/Chrome user data and configuration files (Prompts for preferred browser)
+- Outlook Signatures
+- Desktop data from user on C:
+- Documents data from user on C:
+- Outlook Archive Files (pst and ost)
 
-In order to use this all you'll need to do is set the Network Share location var to the location of your user network shares. You'll also need to auth with appropriate domain credentials after running the script.
+In order to use this all you'll need to do is set the Network Share location variable to the location of your user network shares. You'll also need to auth with appropriate domain credentials after running the script.
 
 To do:
 - Error handling
+- Finish a rewrite of accompanying restore script, will update with once finished.
 
-Restore will be fairly self explanatory, I'll update repo with it once I finish a rewrite.
