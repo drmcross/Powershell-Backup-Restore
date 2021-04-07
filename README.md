@@ -1,5 +1,5 @@
 # Powershell Backup/Restore
-Powershell utility that backs up common user files from C: to a users Network Drive. Has been useful for when I'm giving a new machine to a user and they might have app settings/files on C: itself. Ideally all personal files would already be saved to their net share space, but oh well. Stores all backed up data to an ISBackup folder in the root of the users Network drive.
+Powershell utility that backs up common user files from C: to a users Network Drive. Has been useful for when I'm giving a new machine to a user and they might have app settings/files on C: itself. Ideally all personal files would already be saved to their net share space, but oh well. Stores all backed up data to an ISBackup folder in the root of the users Network drive. Y: is just the personal drive letter assignment for our environment, hence it's usage in comments. 
  
 What the backup grabs:
 
